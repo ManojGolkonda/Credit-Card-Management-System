@@ -1,0 +1,6 @@
+var self = this;
+            lists.fetch({
+                success: function (collection, response, options) {
+                    self.render();
+                }
+            });

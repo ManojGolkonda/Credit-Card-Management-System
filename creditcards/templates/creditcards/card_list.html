@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List of Cards</title>
+</head>
+<body>
+    <h1>Cards List</h1>
+    <ul>
+        {% for card in card_list %}
+        <li>{{ card.friendly_name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card Details</title>
+</head>
+<body>
+     <table border="2" cellpadding="5" width="100%">
+    <caption><h1>Card Details</h1></caption>
+        <tr>
+            <th>Friendly Name</th>
+            <th>Name on Card</th>
+            <th>Card Type</th>
+            <th>Card Number</th>
+            <th>Expiry Date</th>
+        </tr>
+        <tr>
+            <td>{{ cards.friendly_name }}</td>
+            <td>{{ cards.name_on_card }}</td>
+            <td>{{ cards.card_type }}</td>
+            <td>{{ cards.card_number }}</td>
+            <td>{{ cards.expiry_date }}</td>
+        </tr>
+    </table>
+</body>
+</html>
