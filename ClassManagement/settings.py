@@ -80,13 +80,12 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'ccdb',
-        'USER': 'manoj',
-        'PASSWORD':'manoj12',
-        'HOST':'localhost',
+        'USER': 'mayago',
+        'PASSWORD':'manoj123',
+        'HOST':'mayago.mysql.pythonanywhere-services.com',
         'PORT':'3306',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators
